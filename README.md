@@ -53,6 +53,7 @@ memory.db（数据持久化）
 | [15-health.md](15-health.md) | 手环健康数据管线：Gadgetbridge→Health Connect→Tasker→自建 API |
 | [16-life-tracking.md](16-life-tracking.md) | 生活记录三件套：每日小票 + 周期月历 + 纪念日卡（含补记历史的坑）|
 | [17-desktop-widget.md](17-desktop-widget.md) | 桌面小组件：服务端接口 + Tasker Widget v2，零安卓代码（含四个配置坑）|
+| [18-idle-life.md](18-idle-life.md) | 独处时间：AI 定时醒来自选活动（含推理模型 max_tokens 坑 + 为什么不共享聊天缓存）|
 
 ## 前置条件
 
