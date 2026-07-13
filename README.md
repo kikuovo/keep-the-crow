@@ -42,12 +42,12 @@ memory.db（数据持久化）
 | [04-moon-memory.md](04-moon-memory.md) | moon-memory 持久记忆库 |
 | [05-pwa-frontend.md](05-pwa-frontend.md) | PWA 前端（归巢/聊天界面） |
 | [06-tts.md](06-tts.md) | TTS 语音朗读接入 & STT 语音输入（服务端转写）|
-| [07-yanji.md](07-yanji.md) | 言叽 AI 聊天界面（多模型/工具调用/记忆注入/情绪系统）|
+| [07-yanji.md](07-yanji.md) | 言叽 AI 聊天界面（多模型/工具调用/记忆注入/情绪系统/来电与语音留言）|
 | [08-electron.md](08-electron.md) | Electron 桌面版打包与分发 |
 | [09-push-dream.md](09-push-dream.md) | 主动推送语料 & 做梦系统 & nudge 主动消息 |
 | [10-server-migration.md](10-server-migration.md) | 换服务器迁移清单 & 备份体系 & 日常运维（VACUUM/监控）|
 | [11-prompt-caching.md](11-prompt-caching.md) | Prompt Caching 实战：长对话省钱且不失忆 |
-| [12-shared-reading.md](12-shared-reading.md) | 共读书架：划线批注 + 共读旧对话 + 阅读动态 |
+| [12-shared-reading.md](12-shared-reading.md) | 共读书架：划线批注 + 共读旧对话 + 阅读动态 + 公版书上架流水线 |
 | [13-security.md](13-security.md) | 安全加固：桥接服务的五个真实漏洞与修法 |
 | [14-moments.md](14-moments.md) | 朋友圈：动态流 + 识图评论 + 自动发圈（含事实边界教训）|
 | [15-health.md](15-health.md) | 手环健康数据管线：Gadgetbridge→Health Connect→Tasker→自建 API |
@@ -90,6 +90,7 @@ memory.db（数据持久化）
 - [Shitsuten/proactive-nudge](https://github.com/Shitsuten/proactive-nudge)：AI 主动开口的「伪用户消息注入」思路（9 篇的 nudge 一节）
 - [bvsden/chunked-continuity-compaction](https://github.com/bvsden/chunked-continuity-compaction)：长对话分段压缩接续的思路
 - [fishisfish0614/hervoice](https://github.com/fishisfish0614/hervoice)：语音情绪感知的方向启发（我们最终用 STT 模型自带的情绪信号实现零成本版）
+- [Cheiineeey/callhome](https://github.com/Cheiineeey/callhome)（MIT）：AI 主动来电的 dial 标记 + 未接转语音留言的设计（07 篇的「来电与语音留言」一节）
 
 **教程与实战经验（推特）**
 - [@qichuanzz](https://x.com/qichuanzz)：手环健康数据管线教程（15 篇的起点）
