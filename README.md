@@ -42,7 +42,7 @@ memory.db（数据持久化）
 | [04-moon-memory.md](04-moon-memory.md) | moon-memory 持久记忆库 |
 | [05-pwa-frontend.md](05-pwa-frontend.md) | PWA 前端（归巢/聊天界面） |
 | [06-tts.md](06-tts.md) | TTS 语音朗读接入 & STT 语音输入（服务端转写）|
-| [07-yanji.md](07-yanji.md) | 言叽 AI 聊天界面（多模型/工具调用/记忆注入/情绪系统/来电与语音留言）|
+| [07-yanji.md](07-yanji.md) | 言叽 AI 聊天界面（多模型/工具调用/记忆注入/情绪系统/来电与语音留言/双语通话/主题调优）|
 | [08-electron.md](08-electron.md) | Electron 桌面版打包与分发 |
 | [09-push-dream.md](09-push-dream.md) | 主动推送语料 & 做梦系统 & nudge 主动消息 |
 | [10-server-migration.md](10-server-migration.md) | 换服务器迁移清单 & 备份体系 & 日常运维（VACUUM/监控）|
@@ -54,6 +54,8 @@ memory.db（数据持久化）
 | [16-life-tracking.md](16-life-tracking.md) | 生活记录三件套：每日小票 + 周期月历 + 纪念日卡（含补记历史的坑）|
 | [17-desktop-widget.md](17-desktop-widget.md) | 桌面小组件：服务端接口 + Tasker Widget v2，零安卓代码（含四个配置坑）|
 | [18-idle-life.md](18-idle-life.md) | 独处时间：AI 定时醒来自选活动（含推理模型 max_tokens 坑 + 为什么不共享聊天缓存）|
+| [19-apk-shell.md](19-apk-shell.md) | 安卓 APK 在线壳：Capacitor server.url + GitHub Actions 云构建（含签名/前台服务权限/WebView 三缺口）|
+| [20-weather.md](20-weather.md) | 天气感知：双源+缓存+兜底的服务端接口，三端共用（每日首条注入 + 工具 + 进入页天气行）|
 
 ## 前置条件
 
@@ -92,10 +94,11 @@ memory.db（数据持久化）
 - [fishisfish0614/hervoice](https://github.com/fishisfish0614/hervoice)：语音情绪感知的方向启发（我们最终用 STT 模型自带的情绪信号实现零成本版）
 - [Cheiineeey/callhome](https://github.com/Cheiineeey/callhome)（MIT）：AI 主动来电的 dial 标记 + 未接转语音留言的设计（07 篇的「来电与语音留言」一节）
 
-**教程与实战经验（推特）**
+**教程与实战经验（推特/小红书）**
 - [@qichuanzz](https://x.com/qichuanzz)：手环健康数据管线教程（15 篇的起点）
 - [@Velliotdonuts](https://x.com/Velliotdonuts)：SSE 流式传输教程
 - [@luicethekiwi](https://x.com/luicethekiwi)：prompt 缓存命中实战经验
+- 小红书 **5679688734**：Termux MCP 天气教程（20 篇的起点，我们把她的思路移植到了服务端）
 
 ---
 
